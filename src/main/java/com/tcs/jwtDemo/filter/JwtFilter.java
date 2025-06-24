@@ -1,4 +1,4 @@
-package com.tcs.jwtDemo;
+package com.tcs.jwtDemo.filter;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -10,6 +10,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.security.web.authentication.preauth.websphere.WebSpherePreAuthenticatedWebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.tcs.jwtDemo.util.JwtUtil;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

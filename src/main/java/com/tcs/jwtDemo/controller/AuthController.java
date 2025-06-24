@@ -1,10 +1,13 @@
-package com.tcs.jwtDemo;
+package com.tcs.jwtDemo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.tcs.jwtDemo.Bean.AuthRequest;
+import com.tcs.jwtDemo.util.JwtUtil;
 
 @RestController
 public class AuthController {

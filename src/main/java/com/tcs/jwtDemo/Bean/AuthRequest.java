@@ -1,4 +1,4 @@
-package com.tcs.jwtDemo;
+package com.tcs.jwtDemo.Bean;
 
 import org.springframework.stereotype.Component;
 

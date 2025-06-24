@@ -1,4 +1,4 @@
-package com.tcs.jwtDemo;
+package com.tcs.jwtDemo.util;
 
 import java.security.Key;
 import java.util.Date;

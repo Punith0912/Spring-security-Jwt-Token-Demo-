@@ -1,4 +1,4 @@
-package com.tcs.jwtDemo;
+package com.tcs.jwtDemo.config;
 
 import java.security.Security;
 
@@ -9,6 +9,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import com.tcs.jwtDemo.filter.JwtFilter;
 
 @EnableWebSecurity
 public class SecurityConfig {
